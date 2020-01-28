@@ -1,0 +1,72 @@
+
+setwd("C:\\Users\\Jaime\\Desktop\\560\\homework") - example only
+dataset=read.table("StatVillage.txt",sep="\t",header=TRUE)
+
+Project 1 (part 1) 
+
+# code for 1.
+
+d=dataset$DTYPEH
+barplot(table(d)/length(d),xlab="Structural Type of Dwelling",ylab="Percentage",
+main="Bar chart for DTYPEH")
+legend(3,.6,
+c("1. Single-detached house",
+"2. Apartment in build. 5+ storeys",
+"4. Semi-detached house",
+"5. Apartment in a detached duplex",
+"6. Row house",
+"7. Other single-attached house",
+"8. Mobile home or other movable"),
+cex=.7)
+
+# code for 2. 
+
+a=dataset$HMAGE
+table(a)
+b=c(rep(20,34),rep(30,206),rep(40,270),rep(50,187),rep(60,143),
+rep(70,120),rep(77,31),rep(82,33))
+hist(b,breaks=c(15,25,35,45,55,65,75,80,85),xaxt="n",
+xlab="Age",main="Histogram for HMAGE")
+axis(1,at=c(15,25,35,45,55,65,75,80),las=2)
+
+b=c(rep(15,34),rep(25,206),rep(35,270),rep(45,187),rep(55,143),
+rep(65,120),rep(75,31),rep(80,33))
+mean(b)
+
+# code for 3.
+
+x=dataset$TOTINCH
+hist(x,breaks=30,main="Histogram for TOTINCH",xlab="Household Income")
+
+mean(x);sd(x)
+
+# code for 4.(1)
+
+set.seed(485932)
+i=sample(1:1024,1)
+i
+
+# code for 4.(2)
+
+x[i]
+
+# code for 4.(3)
+
+sum(x>x[i])/1024
+
+# code for 4.(4)
+
+m=mean(x);s=sd(x)
+z=(x[i]-m)/s
+z
+1-pnorm(z)
+
+
+set.seed(467272);i=sample(1:1024,1);i
+x[i]
+z=(x[i]-mean(x))/sd(x)
+mean(x>x[i])
+1-pnorm(z)
+1-pnorm(round(z,2))
+
+NOTE: The random seeds are given individually. 

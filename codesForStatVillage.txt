@@ -1,0 +1,460 @@
+1    BLOCK Block number of household.
+2    UNIT Unit within the selected block.
+3    HHSIZE Number of Persons in the Household
+
+    HHPER* Number of persons by age category. This is a 13 digit field with individual digits representing the following sub-fields:
+4        HHPERA Number of Persons <5 Years of Age in the Household
+5        HHPERB1 Number of Males in the Household at Home 5-17 Years of Age.
+6        HHPERB2 Number of Females in the Household at Home 5-17 Years of Age.
+7        HHPERD1 Number of Males in the Household at Home 18-24 Years of Age
+8        HHPERD2 Number of Females in the Household at Home 18-24 Years of Age
+9        HHPERE1 Number of Males in the Household at Home 25-59 Years of Age
+10        HHPERE2 Number of Females in the Household at Home 25-59 Years of Age
+11        HHPERF1 Number of Males in the Household at Home 60-64 Years of Age
+12        HHPERF2 Number of Females in the Household at Home 60-64 Years of Age
+13        HHPERG1 Number of Males in the Household at Home 65-74 Years of Age
+14        HHPERG2 Number of Females in the Household at Home 65-74 Years of Age
+15        HHPERH1 Number of Males in the Household at Home 75 Years of Age. +
+16        HHPERH2 Number of Females in the Household at Home 75 Years of Age. + 
+
+17    NUEMPINH Number of Employment Income Recipients in Household
+18    NUIRH Number of Income recipients in Household
+19    EMPINCH Total Household Employment Income
+20    INVSTH Total Investment Income of Household
+21    GOVINCH Total Household Government Transfer Payments
+22    OTINCH All Other Household Income
+23    TOTINCH Total Household Income
+
+24    DTYPEH Structural Type of Dwelling
+25    BUILTH Period of Construction
+26    TENURH Tenure
+27    MORGH Presence of Mortgage
+28    ROOMH Number of Rooms
+29    BROOMH Number of Bedrooms
+30    VALUEH Value of Dwelling
+
+31    GROSRTH Monthly Gross Rent
+32    OMPH Owner's Major Payments (Monthly)
+
+33    HMAGE Age of Primary Household Maintainer
+34    HMSEX Sex of Primary Household Maintainer
+35    HMMTN Mother Tongue of Primary Household Maintainer
+36    HMHLOS Highest Level of Schooling of Primary Household Maint.
+37    HMOCC1 Occupation (1991 SOC) of Primary Household Maintainer
+38    HMLFACT Labour Force Activity of Primary Household Maintainer
+39    HMWKSWK Weeks Worked in 1990 by Primary Household Maintainer
+40    HMEMPIN Total Employment Income of Primary Household Maintainer
+
+41    SHMAGE Age of Spouse or Common-Law Partner of Primary Household Maintainer
+42    SHMSEX Sex of Spouse or Common-Law Partner of Primary Household M
+43    SHMMTN Mother Tongue of Spouse or CLP of Primary Household Maintainer
+44    SHMHLOS Highest Level of Schooling of Spouse or CLP of PHM
+45    SHMOCC91 Occupation (1991 SOC) of Spouse or CLP of Prim Household Maintainer
+46    SHMLFACT Labour Force Activity of Spouse or CLP of Prim Household Maintainer
+47    SHMWKSWK Weeks Worked in 1990 by Spouse or CLP of Prim Household Maintainer
+48    SHMEMPIN Total Employment Income of Spouse or CLP of Primary Household Maintainer 
+
+Detailed information about each field
+
+    BLOCK Block number of household
+
+    UNIT Unit within each block
+
+    HHSIZE Number of Persons in the Household
+
+            CONTENT                             CODE      
+            Not available                          .       
+            One person                             1      
+            Two persons                            2       
+            Three persons                          3       
+            Four persons                           4       
+            Five persons                           5       
+            Six persons                            6        
+            Seven persons                          7       
+            Eight or more persons                  8 
+
+    Refers to the classification of households by the number of persons in the household.
+
+    HHPER* Number of persons in the household by age category. This is a 13 digit fields with the following sub-fields:
+
+        HHPERA Number of Persons <5 Years of Age in the Household
+
+        HHPERB1 Number of Males in the Household at Home 5-17 Years of Age
+
+        HHPERB2 Number of Females in the Household at Home 5-17 Years of Age
+
+        HHPERD1 Number of Males in the Household at Home 18-24 Years of Age
+
+        HHPERD2 Number of Females in the Household at Home 18-24 Years of Age
+
+        HHPERE1 Number of Males in the Household at Home 25-59 Years of Age
+
+        HHPERE2 Number of Females in the Household at Home 25-59 Years of Age
+
+        HHPERF1 Number of Males in the Household at Home 60-64 Years of Age
+
+        HHPERF2 Number of Females in the Household at Home 60-64 Years of Age
+
+        HHPERG1 Number of Males in the Household at Home 65-74 Years of Age
+
+        HHPERG2 Number of Females in the Household at Home 65-74 Years of Age
+
+        HHPERH1 Number of Males in the Household at Home 75+ Years of Age
+
+        HHPERH2 Number of Females in the Household at Home 75+ Years of Age 
+
+            CONTENT                             CODE       
+            Not available                          . 
+            None                                   0
+            One person                             1 
+            Two persons                            2
+            Three or more persons                  3
+
+    NUEMPINH Number of Employment Income Recipients in Household
+
+            CONTENT                             CODE       
+            No recipient                           .
+            One recipient                          1 
+            Two recipients                         2
+            Three recipients                       3
+            Four recipients                        4
+            Five or more recipients                5 
+
+    Refers to the number of individuals in the household, 15 years of age and over, who received income in 1990 from wages and salaries, net non-farm self-employment income and net farm self-employment income.
+
+    NUIRH Number of Income recipients in Household
+
+            CONTENT                             CODE       
+            No recipient                           .
+            One recipient                          1
+            Two recipients                         2
+            Three recipients                       3
+            Four recipients                        4
+            Five or more recipients                5 
+
+    Refers to the number of individuals in the household, 15 years of age and over, who received income in 1990 from any of the following sources: wages and salaries; net non-farm self-employment income; net farm self-employment income; Family Allowances; Federal Child Tax Credits; Old Age Security pensions and Guaranteed Income Supplements; benefits from the Canada or Quebec Pension Plans; benefits from Unemployment Insurance; other income from government sources; dividends and interest on bonds, deposits, savings certificates, and other investment income; Retirement pensions, superannuation and annuities; or other money income.
+
+    EMPINCH Total Household Employment Income
+
+            CONTENT                            VALUE       
+            No value                             .
+            No income                            0
+
+    Refers to the total income received by all persons 15 years of age and over in the household during the calendar year 1990 from wages and salaries, net income from farm self-employment and/or non-farm self-employment. This is a signed numeric field and shows the actual amount received in 1990 except for certain cases where the reported amount was beyond specified limits. For further information on income data, refer to:
+
+    INVSTH Total Investment Income of Household
+
+            CONTENT                            VALUE
+            No value                             .
+            No income                            0 
+
+    Refers to interest received in calendar year 1990 by all persons 15 years of age and over in the household from deposits in banks, trust companies, cooperatives, credit unions, caisses populaires, etc., as well as interest on savings certificates, bonds and debentures, and all dividends from both Canadian and foreign stocks. Also included is other investment income, for all members of the household, from either Canadian or foreign sources, such as net rents from real estate, mortgage and loan interest received, regular income from an estate or trust fund, and interest from insurance policies.
+
+    GOVINCH Total Household Government Transfer Payments
+
+            CONTENT                            VALUE
+            No value                             .
+            No income                            0 
+
+    Refers to the total income from all transfer payments received by all persons 15 years of age and over in the household from federal, provincial or municipal governments in calendar year 1990. This variable is derived by summing the amounts for the following sources:
+        Old Age Security pensions and Guaranteed Income Supplements;
+        benefits from the Canada or Quebec Pension Plans;
+        benefits from Unemployment Insurance;
+        Family Allowances;
+        Federal Child Tax Credits;
+        other income from government sources. 
+    This variable is always positive and shows the actual amount received in 1990.
+
+    OTINCH All Other Household Income
+
+            CONTENT                            VALUE
+            No value                             .
+            No income                            0 
+
+    Includes all regular income received during calendar year 1990 by all persons 15 years of age and over in the household as the result of having been a member of a pension plan of one or more employers. It includes payments received from all annuities, including payments from a matured Registered Retirement Savings Plan (RRSP) in the form of a life annuity, a fixed term annuity, a registered retirement income fund or an income-averaging annuity contract; pensions paid to widows or other relatives of deceased pensioners; pensions of retired civil servants, Armed Forces personnel and Royal Canadian Mounted Police (RCMP) officers; and annuity payments received from the Canadian Government Annuities Fund, an insurance company, etc. Does not include lump-sum death benefits, lump-sum benefits or withdrawals from a pension plan or an RRSP, or refunds of overcontributions.
+
+    Also includes regular cash income received during calendar year 1990 and not reported in any of the other nine sources listed on the questionnaire, e.g., alimony, child support, periodic support from other persons not in the household, net income from roomers and boarders, income from abroad (except dividends and interest), non-refundable scholarships and bursaries, severance pay, royalties and strike pay.
+
+    TOTINCH Total Household Income
+
+            CONTENT                            VALUE 
+            No value                             .
+            No income                            0 
+
+    Refers to the total money income received by all individuals 15 years of age and over in a household during the calendar year 1990 from the sources listed below:
+        WAGES AND SALARIES
+        Refers to gross wages and salaries, before deductions for income tax, pensions, Unemployment Insurance, etc. Included in this source are military pay and allowances, tips, commissions and cash bonuses, as well as all types of casual earnings in the 1990 calendar year. The value of taxable allowances and benefits provided by employers, such as free lodging and free automobile use, is excluded.
+        NET NON-FARM SELF-EMPLOYMENT INCOME
+        Refers to net income (gross receipts minus expenses of operation such as wages, rents and depreciation) received during calendar year 1990 from the respondent's non-farm unincorporated business or professional practice. In the case of a partnership, only the respondent's share was to be reported. Also included is net income from persons baby-sitting in their own homes, operators of direct distributorships such as those selling and delivering cosmetics, as well as from free-lance activities of artists, writers, music teachers, hairdressers, dressmakers, etc.
+        NET FARM SELF-EMPLOYMENT INCOME
+        Refers to net income (gross receipts from farm sales minus depreciation and cost of operation) received during calendar year 1990 from the operation of a farm, either on own account or in partnership. In the case of partnerships, only the respondent's share of income was to be reported. Also included are advance, supplementary or assistance payments to farmers by federal or provincial governments. However, the value of income "in kind", such as agricultural products produced and consumed on the farm, is excluded.
+        FAMILY ALLOWANCES
+        Refers to total allowances paid in calendar year 1990 by the federal and provincial governments in respect of dependent children under 18 years of age. No information on Family Allowances was collected from the respondents. Instead, a family allowance figure was calculated in the course of processing and assigned, where applicable, to one of the parents in the census family on the basis of information on children in the family and the rates prevailing in the various provinces in 1990. For Quebec residents, "Allowance for children less than 6 years of age" and "Allowance for newborn children" are included.
+        FEDERAL CHILD TAX CREDITS
+        Refers to Federal Child Tax Credits paid in calendar year 1990 by the federal government in respect of dependent children under 18 years of age. No information on Child Tax Credits was collected from the respondents. Instead, a child tax credit figure was calculated in the course of processing and assigned, where applicable, to one of the parents in the census family on the basis of information on children in the family and the family income.
+        OLD AGE SECURITY PENSION AND GUARANTEED INCOME SUPPLEMENT
+        Refers to Old Age Security pensions and Guaranteed Income Supplements paid to persons 65 years of age and over, and Spouses' Allowances paid to 60- to 64-year-old spouses of Old Age Security pension recipients by the federal government only during calendar year 1990. Also included are Extended Spouses' Allowances paid to 60- to 64-year- old widows/widowers.
+        BENEFITS FROM THE CANADA OR QUEBEC PENSION PLANS
+        Refers to benefits received in calendar year 1990 from the Canada or Quebec Pension Plans, e.g., retirement pensions, survivors' benefits and disability pensions. It does not include lump-sum death benefits.
+        BENEFITS FROM UNEMPLOYMENT INSURANCE
+        Refers to total Unemployment Insurance benefits received in calendar year 1990, before income tax deductions. It includes benefits for sickness, maternity, fishing, work sharing, retraining and retirement received under the Federal Unemployment Insurance Program.
+        OTHER INCOME FROM GOVERNMENT SOURCES
+        Refers to all transfer payments, excluding those covered as a separate income source (Family Allowances, Federal Child Tax Credits, Old Age Security pensions and Guaranteed Income Supplements, Canada or Quebec Pension Plan benefits, and Unemployment Insurance benefits) received from federal, provincial or municipal programs in calendar year 1990. This source includes social assistance payments received by persons in need, such as mothers with dependent children, persons temporarily or permanently unable to work, elderly individuals, the blind and the disabled. Included are provincial income supplement payments to seniors to supplement the Old Age Security pension and Guaranteed Income Supplement, and provincial payments to seniors to help offset accommodation costs. Also included are other transfer payments such as benefits under the Canadian Jobs Strategy Program, veterans' pensions, war veterans' allowances, pensions to widows and dependants of veterans, and workers' compensation. Additionally, any amounts received in 1990 for refundable Provincial Tax Credits, Federal Sales Tax Credits and the Federal Goods and Services Tax Credits are included.
+        DIVIDENDS AND INTEREST ON BONDS, DEPOSITS, SAVINGS CERTIFICATES, AND OTHER INVESTMENT INCOME
+        Refers to interest received in calendar year 1990 from deposits in banks, trust companies, cooperatives, credit unions, caisses populaires, etc., as well as interest on savings certificates, bonds, and debentures, and all dividends from both Canadian and foreign stocks. Also included is other investment income from either Canadian or foreign sources, such as net rents from real estate, mortgage and loan interest received, regular income from an estate or trust fund, and interest from insurance policies.
+        RETIREMENT PENSIONS, SUPERANNUATION AND ANNUITIES
+        Refers to all regular income received during calendar year 1990 as the result of having been a member of a pension plan of one or more employers. It includes payments received from all annuities, including payments from a matured Registered Retirement Savings Plan (RRSP) in the form of a life annuity, a fixed-term annuity, a registered retirement income fund or an income-averaging annuity contract; pensions paid to widows or other relatives of deceased pensioners; pensions of retired civil servants, Armed Forces personnel and Royal Canadian Mounted Police (RCMP) officers; and annuity payments received from the Canadian Government Annuities Fund, an insurance company, etc. Does not include lump-sum death benefits, lump-sum benefits or withdrawals from a pension plan or an RRSP, or refunds of overcontributions.
+        OTHER MONEY INCOME
+        Refers to regular cash income received during calendar year 1990 and not reported in any of the other nine sources listed on the questionnaire, e.g., alimony, child support, periodic support from other persons not in the household, net income from roomers and boarders, income from abroad (except dividends and interest), non- refundable scholarships and bursaries, severance pay, royalties and strike pay. 
+    RECEIPTS NOT COUNTED AS INCOME
+    Gambling gains and losses, lottery prizes, money inherited during the year in a lump sum, capital gains or losses, receipts from the sale of property or personal belongings, income tax refunds, loan payments received, loans repaid to an individual as the lender, lump-sum settlements of insurance policies, rebates received of property taxes and other taxes, and refunds of pension contributions were excluded, as well as all income "in kind" such as free meals, living accommodations, or agricultural products produced and consumed on the farm.
+
+    DTYPEH Structural Type of Dwelling
+
+            CONTENT                             CODE       
+            Not available                          . 
+            Single-detached house                  1 
+            Apartment in build. 5+ storeys         2 
+            Apartment in build. <5 storeys         3 
+            Semi-detached house                    4 
+            Apartment in a detached duplex         5 
+            Row house                              6 
+            Other single-attached house            7 
+            Mobile home or other movable           8 
+
+    Refers to the structural characteristics and/or dwelling configuration, that is, whether the dwelling is a detached single house, an apartment, etc. Code 8 includes: Mobile homes and other movable dwellings.
+
+    BUILTH Period of Construction
+
+            CONTENT                             CODE       
+            1920 or before                         1
+            1921-1945                              2
+            1946-1960                              3
+            1961-1970                              4
+            1971-1980                              5
+            1981-1985                              6
+            1986-1990                              7
+            1991                                   8 
+
+    Refers to the period in time during which the building or dwelling was originally constructed. Code 8 includes: The first five months only of 1991.
+
+    TENURH Tenure
+
+            CONTENT                             CODE       
+            Owned (with or w/out mortgage)         1
+            Rented for cash, other or band         2 
+
+    Refers to whether some member of the household owns or rents the dwelling, or whether the dwelling is band housing (on an Indian reserve) or not. Code 1 includes: Persons in households that own their dwelling.
+
+    MORGH Presence of Mortgage
+
+            CONTENT                             CODE       
+            Not applicable                         .
+            Yes                                    1
+            No                                     2 
+
+    Refers to whether or not the dwelling is mortgaged.
+
+    ROOMH Number of Rooms
+
+            CONTENT                             CODE       
+            One room                               1 
+            Two rooms                              2 
+            Three rooms                            3
+            Four rooms                             4 
+            Five rooms                             5
+            Six rooms                              6
+            Seven rooms                            7
+            Eight rooms                            8
+            Nine rooms                             9
+            Ten or more rooms                     10 
+
+    Refers to the number of rooms in a dwelling. A ROOM is an enclosed area within a dwelling which is finished and suitable for year- round living.
+
+    BROOMH Number of Bedrooms
+
+            CONTENT                             CODE       
+            No bedroom                             . 
+            One bedroom                            1 
+            Two bedrooms                           2 
+            Three bedrooms                         3 
+            Four bedrooms                          4 
+            Five or more bedrooms                  5 
+
+    Refers to all rooms designed and furnished as bedrooms and used mainly for sleeping purposes, even though the use may be occasional (e.g., spare bedroom).
+
+    VALUEH Assesed Value of Dwelling
+
+            CONTENT                            VALUE
+            No value                               . 
+
+    Refers to the actual dollar amount expected by the owner if the dwelling were to be sold. Missing if tenant-occupied.
+
+    GROSRTH Monthly Gross Rent
+
+            CONTENT                            VALUE       
+            Not applicable                      .   
+
+    Refers to the total average monthly payments paid by tenant households to secure shelter. Gross rent includes payments for electricity, oil, gas, coal, wood or other fuels, water and other municipal services, and monthly cash rent. No data are available on the individual components of this variable (except for the monthly cash rent). Only data on the total of the main rental expenses (gross rent) are published.
+
+    OMPH Owner's Major Payments (Monthly)
+
+            CONTENT                            VALUE       
+            Not applicable                         .  
+
+    Refers to the total average monthly payments made by owner households to secure shelter. Owner's major payments include payments for electricity, oil, gas, coal, wood or other fuels; water and other municipal services; monthly mortgage payments; property taxes (municipal and school); and, for 1991 only, condominium fees.
+
+    HMAGE Age of Primary Household Maintainer
+
+            CONTENT                             CODE       
+            Not available                          . 
+            15-24 years of age                     1 
+            25-34 years of age                     2 
+            35-44 years of age                     3 
+            45-54 years of age                     4 
+            55-64 years of age                     5 
+            65-74 years of age                     6 
+            75-79 years of age                     7 
+            80 years of age or more                8 
+
+    Refers to the age at last birthday (as of census reference date, June 4, 1991). This variable is derived from date of birth. Age groups only are provided.
+
+    HMSEX Sex of Primary Household Maintainer
+
+            CONTENT                             CODE       
+            Male                                   1 
+            Female                                 2 
+
+    Refers to the gender of the primary household maintainer.
+
+    HMMTN Mother Tongue of Primary Household Maintainer
+
+            CONTENT                             CODE       
+            Not available                          .
+            Single: English only                   1
+            Single: French only                    2
+            Single: Other only                     3
+            Multiple: English and French           4
+            Multiple: English and Other            5
+            Multiple: French and Other             6
+            Multiple: English French & Oth         7
+            Multiple: Other                        8 
+
+    Refers to the first language learned at home in childhood and still understood by the individual at the time of the census. Code 3 includes: All remaining single responses. Code 5 includes: English and any non-official language(s). Code 6 includes: French and any non-official language(s). Code 7 includes: English, French and non-official language(s). Code 8 includes: Non-official languages only.
+
+    HMHLOS Highest Level of Schooling of Primary Household Maint.
+
+            CONTENT                             CODE       
+            Not available                          .
+            Less than Grade 9                      1
+            Grades 9-13: W/out sec crt/dip         2
+            Grades 9-13: With sec cert/dip         3
+            Other non-univ: W/out cert/dip         4
+            Other non-univ: With cert/dip          5
+            University: Without degree             6
+            University: With degree -bach+         7 
+
+    Refers to the highest grade or year of elementary or secondary school attended, or to the highest year of university or "Other, non-university" education completed. University education is considered to represent a higher level of schooling than "Other non-university education". Also, the attainment of a degree, certificate or diploma is considered to represent a higher level of schooling than years completed, or courses attended, without an educational qualification.
+
+    HMOCC91 Occupation (1991 SOC) of Primary Household Maintainer
+
+            CONTENT                             CODE       
+            Not applicable                         .
+            Senior managers (SLIV)                 1
+            Middle & other managers (SLIV)         2
+            Professionals (SLIV)                   3
+            Semi-profess. & techs. (SLIII)         4
+            Supervisors (SLIII)                    5
+            Foremen/women (SLIII)                  6
+            Admin. & senior cler. (SLIII)          7
+            Sales & Service (SLIII)                8
+            Skilled crafts & trades(SLIII)         9
+            Clerical workers (SLII)               10
+            Sales & service (SLII)                11
+            Semi-skilled manual wrk.(SLII)        12
+            Sales & service (SLI)                 13
+            Other manual workers (SLI)            14 
+
+    Refers to the kind of work persons were doing during the reference week, as determined by the kind of work and the description of the most important duties of the job. If these persons did not have a job during the week prior to enumeration, the data relate to the job of longest duration since January 1, 1990. Persons with two or more jobs were to report the information for the job at which they worked the most hours.
+
+    The 1991 SOC is composed of 10 broad occupational categories. These categories are subdivided into 47 major groups which, in turn, are subdivided into 139 minor groups, which are further subdivided into 519 unit groups. At the unit group level, occupation titles are classified on the basis of the education, training or skill level required to enter the job, as well as the kind of work performed, as determined by the tasks, duties and responsibilities of the occupation.
+
+    HMLFACT Labour Force Activity of Primary Household Maintainer
+
+            CONTENT                             CODE       
+            Not available                          .
+            Employed: Worked                       1
+            Employed: Absent                       2
+            Unempl.: Layoff-Did not look           3
+            Unempl.: Layoff-Looked for f/t         4
+            Unempl.: Layoff-Looked for p/t         5
+            Unempl.: Newjob-Did not look           6 
+            Unempl.: Newjob-Looked for f/t         7 
+            Unempl.: Newjob-Looked for p/t         8 
+            Unempl.: Looked for f/t                9 
+            Unempl.: Looked for p/t               10 
+            Not in lab force: Last work 91        11
+            Not in lab force: Last work 90        12 
+            Not in lab force: wrk prior 90        13 
+            Not in lab force: Never worked        14 
+
+    Refers to the labour market activity of the primary household maintainer who, in the week prior to enumeration (June 4, 1991), was employed, unemployed, or not in the labour force.
+    EMPLOYED:
+    The "Employed" includes those persons who, during the week prior to enumeration:
+        did any work at all, excluding housework or other maintenance or repairs around the home and volunteer work; or
+        were absent from their job or business because of their own temporary illness or disability, a vacation, a labour dispute at their place of work, or were absent for other reasons.
+    UNEMPLOYED:
+    The "Unemployed" includes those persons who, during the week prior to enumeration:
+        were without work, had actively looked for work in the past four weeks and were available for work; or
+        were on temporary lay-off and expected to return to their job and were available for work; or
+        had definite arrangements to start a new job in four weeks or less and were available for work.
+    NOT IN THE LABOUR FORCE:
+    The "Not in the labour force" classification refers to those persons who, in the week prior to enumeration, were unwilling or unable to offer or supply their labour services under conditions existing in the labour market. It includes persons who looked for work during the last four weeks but who were not available to start work in the reference week, as well as persons who did not work, did not have a new job to start in four weeks or less, were not on temporary lay-off or did not look for work in the four weeks prior to enumeration.
+
+    The various labour force groups can be obtained by combining the codes in the following manner:
+
+                             Total labour force       Codes 01 to 10
+                             Employed labour force    Codes 01 and 02
+                             Unemployed labour force  Codes 03 to 10
+                             Not in the labour force  Codes 11 to 14.
+
+    HMWKSWK Weeks Worked in 1990 by Primary Household Maintainer
+
+            CONTENT                            VALUE       
+            Not applicable                        .  
+
+    Refers to the number of weeks in 1990 during which the primary household maintainer worked, even if only a few hours. It includes weeks of paid vacation or sick leave with pay or paid absence on training courses. "Work" excludes housework or other maintenance or repairs around the home and volunteer work.
+
+    NOTE: Since there is strong evidence that a considerable number of full-year workers excluded (contrary to instructions) their paid vacation or sick leave, it is suggested that weeks 49 to 52 be collapsed in using these data.
+
+    HMEMPIN Total Employment Income of Primary Household Maintainer
+
+            CONTENT                            VALUE       
+            Not collected                          .  
+
+    Refers to the total income received by the primary household maintainer 15 years of age and over during the calendar year 1990 from wages and salaries, and net income from farm self-employment and/or non-farm self-employment. The value 0 stands for no employment income.
+
+    SHMAGE Age of Spouse or Common-Law Partner of Primary Household Maintainer
+    Refer to Primary Household Maintainer Counterpart for code values.
+
+    SHMSEX Sex of Spouse or Common-Law Partner of Primary Household Maintainer
+    Refer to Primary Household Maintainer Counterpart for code values.
+
+    SHMMTN Mother Tongue of Spouse or Common-Law Partner of Primary Household Maintainer
+    Refer to Primary Household Maintainer Counterpart for code values.
+
+    SHMHLOS Highest Level of Schooling of Spouse or Common-Law Partner of Primary Household Maintainer
+    Refer to Primary Household Maintainer Counterpart for code values.
+
+    SHMOCC91 Occupation (1991 SOC) of Spouse or Common-Law Partner of Primary Household Maintainer
+    Refer to Primary Household Maintainer Counterpart for code values.
+
+    SHMLFACT Labour Force Activity of Spouse or Common-Law Partner of Primary Household Maintainer
+    Refer to Primary Household Maintainer Counterpart for code values.
+
+    SHMWKSWK Weeks Worked in 1990 by Spouse or Common-Law Partner of Primary Household Maintainer
+    Refer to Primary Household Maintainer Counterpart for code values.
+
+    SHMEMPIN Total Employment Income of Spouse or Common-Law Partner of Primary Household Maintainer
+    Refer to Primary Household Maintainer Counterpart for code values. 
+
